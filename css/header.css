@@ -1,0 +1,29 @@
+header{
+    /* background-color: rgb(139,69,19); */
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.Nav-Links{
+    /* background-color: aqua; */
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.Nav-Links a{
+    text-shadow: 2px 2px 2px#000;
+    padding: 8px 5px;
+    transition: all 3s;
+}
+
+.Nav-Links a:hover{
+    background-color: red;
+}
