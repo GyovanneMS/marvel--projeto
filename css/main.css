@@ -1,4 +1,26 @@
 main{
     background-color: yellow;
     flex-grow: 1;
+    display: flex;
 }
+
+.content-container{
+    background-color:	rgb(139,69,19);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.social-container{
+    background-color: blueviolet;
+    width: 48px;
+}
+
