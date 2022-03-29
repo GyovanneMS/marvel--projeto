@@ -25,5 +25,5 @@ header{
 }
 
 .Nav-Links a:hover{
-    background-color: red;
+    background-color: var(--accent-color);
 }
