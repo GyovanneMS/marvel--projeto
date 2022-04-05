@@ -16,6 +16,16 @@ body{
     transition: all 4s;
 }
 
+@media (max-width:768px){
+    body{
+        transition: all 6s;
+        padding: 0 30px;
+        background-color: #0009;
+        background-image: url(../img/background\ 1.png);
+        background-blend-mode: darken;
+        background-position: 100%;
+    }
+}
 
 
 
