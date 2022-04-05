@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
-    transition: all 10s;
+    transition: all 4s;
 }
 
 
