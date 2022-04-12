@@ -1,5 +1,7 @@
 
-
+header .logo{
+    margin-top: 30px;
+}
 main{
     display: flex;
     flex-direction: row;
@@ -19,4 +21,10 @@ main{
 
 .imagem{
     margin: 30px;
+}
+
+footer{
+    height: 10px;
+    margin: 30px;
+    align-items: center;
 }
