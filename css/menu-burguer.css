@@ -1,5 +1,6 @@
 .menu-burger-container{
-    display: flex;
+    position: relative;
+    display: none;
     align-items: center;
     height: 36px;
     width: 36px;
@@ -8,8 +9,8 @@
 .menu-burguer,
 .menu-burguer::before,
 .menu-burguer::after{
+    content: " ";
     position: absolute;
-    content: "";
     display: block;
     height: 4px;
     width: 36px;
@@ -25,14 +26,22 @@
     transform: translateY(12px);
 }
 
-.menu-burger-container:hover .menu-burguer{
+.menu-burger-container.show .menu-burguer{
     background-color: transparent;
+    
 }
 
-.menu-burger-container:hover .menu-burguer::before{
+.menu-burger-container.show .menu-burguer::before{
     transform: rotate(45deg);
 }
 
-.menu-burger-container:hover .menu-burguer::after{
+.menu-burger-container.show .menu-burguer::after{
     transform: rotate(135deg);
+}
+
+@media (max-width:768px){
+    .menu-burger-container{
+        display: flex;
+        z-index: 1;
+    }
 }

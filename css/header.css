@@ -4,6 +4,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
 
 }
 
@@ -35,7 +36,23 @@ header{
         height: 70px;
     }
     .nav-links{
-        display: none;
+        background-color: #000;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        font-size: 2.5rem;
+        font-weight: 300;
+        transform: translate(100%) rotate(720deg) ;
+        transition: all 3s;
+    }
+    .menu-burger-container.show ~ .nav-links{
+        transform: translate(0);
     }
 }
 
