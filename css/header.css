@@ -16,6 +16,7 @@ header{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.1rem;
+    transition: all 3s;
 }
 
 .nav-links a{
@@ -26,6 +27,7 @@ header{
 
 .Nav-Links a:hover{
     background-color: var(--accent-color);
+    transition: all 3s;
 }
 
 @media (max-width:768px){
