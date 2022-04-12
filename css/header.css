@@ -7,7 +7,7 @@ header{
 
 }
 
-.Nav-Links{
+.nav-links{
     /* background-color: aqua; */
     height: 36px;
     display: flex;
@@ -25,7 +25,7 @@ header{
     transition: all 3s;
 }
 
-.Nav-Links a:hover{
+.nav-links a:hover{
     background-color: var(--accent-color);
     transition: all 3s;
 }
