@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     padding: 0 128px;
     transition: all 4s;
+    animation: zoom 3s;
 }
 
 @media (max-width:768px){
@@ -31,6 +32,13 @@ body{
     }
 }
 
-
+@keyframes zoom{
+    0% {
+        transform: scale(13);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 
