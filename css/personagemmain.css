@@ -19,8 +19,26 @@ main{
     flex-direction: column;
 }
 
-.imagem{
-    margin: 30px;
+.borda{
+    margin: 10px;
+}
+
+.nome{
+    height: 76px;
+    background-color: #000;
+    color: whitesmoke;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border-bottom-left-radius: 59px;
+    border-bottom-right-radius: 59px;
+    transition: all 2s;
+}
+
+.borda:hover .nome{
+    background-color: var(--accent-color);
 }
 
 footer{
