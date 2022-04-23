@@ -1,5 +1,13 @@
-main{
-    height: 1;
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: darkorchid;
+}
+
+body main{
+    height: 100%;
 }
 
 iframe{
@@ -12,4 +20,5 @@ iframe{
 
 footer{
     bottom: 15px;
+    background-color: red;
 }
