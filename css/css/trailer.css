@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.titulo{
+    
+}
+
+.margin{
+    height:652px;
+    width: 1043px;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-2.5deg);
+}
+
+iframe{
+    height:600px;
+    width: 1000px;
+    transform: rotate(2.5deg);
+}
+
+

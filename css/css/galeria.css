@@ -1,0 +1,34 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgem-galeria{
+    border: 0px solid transparent;
+    transition: all 1.5s;
+    transform: 3s;
+
+}
+
+img{
+    margin: 30px;
+    transition: all 1.5s;
+}
+
+.imgem-galeria:hover{
+    background-color: white;
+}
+
+.imgem-galeria:hover img{
+    margin: 35px;
+    border: 5px;
+}
+
+.logo-marvel{
+    display:none;
+}
+
+
+

@@ -1,0 +1,44 @@
+:root{
+    --accent-color: #FF031A;
+}
+
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000 ), url(../img/background\ 1.png);
+    /* background-image: url(../img/background\ 1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+    transition: all 4s;
+    animation: zoom 3s;
+}
+
+@media (max-width:768px){
+    body{
+        padding: 0 30px;
+        background-color: #0009;
+        background-image: url(../img/background\ 1.png);
+        background-blend-mode: darken;
+        background-position: 100%;
+    }
+}
+
+/* @keyframes zoom{
+    0% {
+        transform: scale(13);
+    }
+    100% {
+        transform: 0;
+    }
+} */
+
+
