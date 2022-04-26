@@ -1,12 +1,19 @@
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
 }
 
 .titulo{
-    
+    color: white;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: 200px;
 }
 
 .margin{
