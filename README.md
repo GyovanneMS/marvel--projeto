@@ -3,10 +3,7 @@ Projeto construido durante as aulas de LIMA, no curso de desenvolvimento de sist
 
 ![](./img/WEB.png)
 
-<img src="./img/Android Small - 1.png" 
-width="150px">
-<img src="./img/Android Small - 2.png"
-width="150px">
+<img src="./img/Android Small - 1.png" width="150px">        <img src="./img/Android Small - 2.png" width="150px">
 
 ***
 
