@@ -1,24 +1,28 @@
-body{
-    background-color: bisque;
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-header{
-    background-color: darkorchid;
+.titulo{
+    
 }
 
-body main{
-    height: 100%;
+.margin{
+    height:652px;
+    width: 1043px;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-2.5deg);
 }
 
 iframe{
-    height:400%;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    left: 30%;
+    height:600px;
+    width: 1000px;
+    transform: rotate(2.5deg);
 }
 
-footer{
-    bottom: 15px;
-    background-color: red;
-}
+
